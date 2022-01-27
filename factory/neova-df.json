@@ -1,0 +1,16 @@
+{
+	"name": "neova-df",
+	"properties": {
+		"encryption": {
+			"vaultBaseUrl": "https://neova-keyvalut.vault.azure.net",
+			"keyName": "key1",
+			"keyVersion": "be410f2abfaa42758866079193ca8688"
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "151aa3be-24d9-4a2a-9f95-03c6d2e6a19b",
+		"tenantId": "ff4e2413-65ab-4dc2-9e5b-1ea02d3d94eb"
+	}
+}
